@@ -9,7 +9,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.nav-btn .btn{
+.btn{
     padding: 12px 16px;
     background-color: #30b868;
     color: white;
@@ -19,6 +19,13 @@
     font-weight: 600;
 }
 
+.hero-buttons .transparent{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.focus{
+    color: #30b868;
+}
 /* individual styles */
 header{
     /* background-color: green; */
@@ -50,4 +57,57 @@ header nav{
     color: #000000;
     font-size: 16px;
     font-weight: 500;
+}
+
+#hero{
+    padding: 116px 120px 180px 120px;
+    text-align: center;
+    background: url(../assets/cropped-hands-woman-writing-book\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.open-now-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    
+}
+
+#hero .open-now-btn button{
+    padding: 8px 12px;
+    background-color: #ffffff;
+    color: #30B868;
+    border: none;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+}
+.hero-info h1{
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 16px 0
+}
+
+.hero-info p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.hero-buttons a{
+    text-decoration: none;
+}
+.hero-buttons .btn{
+    padding: 16px;
+    display: flex;
+    gap: 10px;
 }
