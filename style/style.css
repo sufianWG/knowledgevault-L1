@@ -174,9 +174,10 @@ header nav{
     font-size: 24px;
     font-weight: 500;
     color: #001931;
+    text-transform: capitalize;
 }
 
-.card p{
+.card p, .sec-info p{
     font-size: 16px;
     color: #627382;
 }
@@ -189,10 +190,51 @@ header nav{
     align-items: center;
     position: relative;
     margin-top: -5px;
+    gap: 60px;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
 
 }
 
 .sec-img img{
     width: 600px;
     height: auto;
+}
+/* did at afternoon-friday */
+.sec-info h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30b868;
+    margin-bottom: 16px;
+    text-transform:uppercase;
+}
+.sec-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    
+}
+.sec-info ul li{
+    list-style: none;
+}
+.sec-info p{
+    margin-bottom: 40px;
+}
+.steps li{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+.steps li i{
+    color: #30b868;
+    align-self: center;
+    flex-shrink: 0;
+    font-size: 16px;
 }
