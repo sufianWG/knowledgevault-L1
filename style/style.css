@@ -17,6 +17,7 @@
     border-radius: 4px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 16px;
 }
 
 .hero-buttons .transparent{
@@ -110,4 +111,71 @@ header nav{
     padding: 16px;
     display: flex;
     gap: 10px;
+}
+/* knowledge section two styles */
+.knowledge-sec-two{
+    background-color: #fbfbfb;
+    text-align: center;
+    padding-top: 60px;
+}
+ .knowledge-sec-two .section-heading h1{
+    text-align: center;
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+ }
+
+ .knowledge-sec-two .section-heading p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+ }
+
+.section-cards{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.section-cards .card{
+    max-width: 322px;
+    height: 300px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 70px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card .card-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-icon i{
+    background-color: #f95555;
+    border: none;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.card h2{
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+}
+
+.card p{
+    font-size: 16px;
+    color: #627382;
 }
