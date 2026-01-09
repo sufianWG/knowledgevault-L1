@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* shared styles */
+/* shared styles (did after 12 AM - night- friday)*/
 .my-font{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -27,7 +27,7 @@
 .focus{
     color: #30b868;
 }
-/* individual styles */
+/* individual styles (did after 12 AM - night- friday) */
 header{
     /* background-color: green; */
     background-color: #ffffff;
@@ -112,7 +112,7 @@ header nav{
     display: flex;
     gap: 10px;
 }
-/* knowledge section two styles */
+/* knowledge section two styles (did at morning - friday) */
 .knowledge-sec-two{
     background-color: #fbfbfb;
     text-align: center;
@@ -147,6 +147,7 @@ header nav{
     padding: 70px 24px;
     border: none;
     border-radius: 8px;
+    box-shadow: 0 0 8px 0 #00000013;
 }
 
 .card .card-icon{
@@ -178,4 +179,20 @@ header nav{
 .card p{
     font-size: 16px;
     color: #627382;
+}
+/* second brain section styles (did at morning - friday) */
+.second-brain-sec{
+    background-color: #ffffff;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -5px;
+
+}
+
+.sec-img img{
+    width: 600px;
+    height: auto;
 }
